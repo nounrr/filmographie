@@ -1,0 +1,86 @@
+
+nav{
+display: flex;
+justify-content: center;
+gap: 20px;
+padding: 10px 0px;
+background-color: rgb(0, 0, 56);
+border-radius: 0px 0px 20px 20px;
+}
+nav a{
+  text-decoration: none;
+  color: white;
+}
+
+input , select {
+  border-radius: 20px;
+  border:  solid 1px rgb(68, 69, 99);
+  padding: 5px 7px;
+  width: 200px;
+}
+.filtre{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+option, input::placeholder{
+  text-align: center;
+}
+.filtrage{
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 100px;
+}
+
+.group{
+  display: flex;
+  gap: 10px;
+}
+.film{
+  padding: 15px;
+  border: 0.5px solid rgb(198, 198, 198);
+  flex: 1;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  cursor: pointer;
+
+}
+.film h1{
+  color: rgb(255, 64, 64);
+  font-size: 20px;
+}
+.film h3, label{
+  font-size: 14px;
+  font-weight: 400;
+}
+.film h3 span{
+  font-weight: 600;
+  font-size: 17px;
+  color: rgb(64, 71, 255);
+}
+ul{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+
+}
+ .grpForm{
+  display: flex;
+  gap: 100px;
+
+}
+.grpForm div{
+  width: 200px;
+}
+li{
+  list-style: none; 
+  cursor: pointer;
+  color: White;
+  padding: 2px 6px;
+  background-color: rgb(0, 0, 56);
+  border-radius: 5px;
+}
+nav a{
+  cursor: pointer;
+}
